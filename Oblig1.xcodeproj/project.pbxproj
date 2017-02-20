@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DD14A0C41E5B4A3D00AF8A00 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD14A0C21E5B4A3D00AF8A00 /* Person.cpp */; };
+		DD14A0CA1E5B5CE800AF8A00 /* Ansatt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD14A0C81E5B5CE800AF8A00 /* Ansatt.cpp */; };
+		DD14A0CD1E5B5D5900AF8A00 /* AnsattData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD14A0CB1E5B5D5900AF8A00 /* AnsattData.cpp */; };
 		DD6E4C6C1E4DBF3D00F34B9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD6E4C6B1E4DBF3D00F34B9C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,10 @@
 /* Begin PBXFileReference section */
 		DD14A0C21E5B4A3D00AF8A00 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		DD14A0C31E5B4A3D00AF8A00 /* Person.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		DD14A0C81E5B5CE800AF8A00 /* Ansatt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ansatt.cpp; sourceTree = "<group>"; };
+		DD14A0C91E5B5CE800AF8A00 /* Ansatt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ansatt.hpp; sourceTree = "<group>"; };
+		DD14A0CB1E5B5D5900AF8A00 /* AnsattData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnsattData.cpp; sourceTree = "<group>"; };
+		DD14A0CC1E5B5D5900AF8A00 /* AnsattData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AnsattData.hpp; sourceTree = "<group>"; };
 		DD6E4C681E4DBF3D00F34B9C /* Oblig1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Oblig1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6E4C6B1E4DBF3D00F34B9C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +69,10 @@
 				DD6E4C6B1E4DBF3D00F34B9C /* main.cpp */,
 				DD14A0C21E5B4A3D00AF8A00 /* Person.cpp */,
 				DD14A0C31E5B4A3D00AF8A00 /* Person.hpp */,
+				DD14A0C81E5B5CE800AF8A00 /* Ansatt.cpp */,
+				DD14A0C91E5B5CE800AF8A00 /* Ansatt.hpp */,
+				DD14A0CB1E5B5D5900AF8A00 /* AnsattData.cpp */,
+				DD14A0CC1E5B5D5900AF8A00 /* AnsattData.hpp */,
 			);
 			path = Oblig1;
 			sourceTree = "<group>";
@@ -124,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD14A0CD1E5B5D5900AF8A00 /* AnsattData.cpp in Sources */,
+				DD14A0CA1E5B5CE800AF8A00 /* Ansatt.cpp in Sources */,
 				DD14A0C41E5B4A3D00AF8A00 /* Person.cpp in Sources */,
 				DD6E4C6C1E4DBF3D00F34B9C /* main.cpp in Sources */,
 			);
