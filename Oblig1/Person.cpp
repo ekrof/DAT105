@@ -11,14 +11,18 @@
 #include <iostream>
 using namespace std;
 
-
-Person::Person(){
+class Person{
     
+private:
+    Person *tilknyttet;
     string navn;
     unsigned int pnr;
     
-}
-
-void Person::sayName(){
-    cout<< "eyy, that's pretty gay"<<endl;
-}
+public:
+    Person(){}
+    
+    Person(string navn, int pnr){
+        
+    }
+    
+};

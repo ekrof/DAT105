@@ -1,12 +1,12 @@
 // nothrow example
 #include <iostream>     // std::cout
 #include <new>          // std::nothrow
-#include "Person.hpp"
+#include "Person.cpp"
 
 int main () {
    
     Person p;
-    p.sayName();
+    Person("Jonas", 5353);
     
     return 0;
 }
